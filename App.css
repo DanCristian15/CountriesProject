@@ -1,0 +1,122 @@
+ .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} 
+
+ @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} 
+ 
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} 
+
+#searchbar {
+  width: 90%;
+  height: 50px;
+  border: px solid;
+  border-color: rgb(90, 90, 90);
+  background-color: rgb(194, 187, 187);
+  font-size: 20px;
+  border-radius: 15px;
+  padding: 5px 5px 5px 25px;
+  margin-bottom: 50px;
+}
+
+.infos {
+  font-size: 24px;
+  color: rgb(88, 89, 110);
+  letter-spacing: 1px;
+}
+
+.country_name {
+  font-size: 30px;
+  color: peru;
+  letter-spacing: 1px;
+}
+
+#header {
+  background-color: #f0f0f0;
+  padding: 1.5rem;
+  margin-bottom: 30px;
+}
+
+
+.country {
+  border: solid 1px #aaa;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  margin: 20px;
+  display: inline-block;
+  background-color: rgb(245, 237, 237);
+ 
+
+}
+
+.country:hover {
+  border-color: #aaa;
+  
+  height: 405px;
+  
+  margin-bottom: 5px;
+  transition: height 0.5s;
+  box-shadow: 5px 10px 5px #aaa;
+
+}
+
+
+#chartIcon {
+  font-size: 80px;
+  color: peru;
+  
+}
+
+
+
+img {
+  height: 100px;
+  width: 200px;
+  margin-top: 20px;
+ 
+}
+
+body {
+  background-color: rgb(250, 248, 246);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#correctCountries {
+
+  display: none;
+}
+
